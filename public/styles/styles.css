@@ -5,18 +5,22 @@
 }
 body {
   background-image: url("/styles/image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 #sign-in {
   color: white;
-  background-color:rgb(136,136,136,0.7);
+  /* background-color:rgb(136,136,136,0.7); */
   font-size: large;
   margin-bottom: 5px;
 }
 #members {
-  background-color:rgb(136,136,136,0.7);
+  background-color:rgba(243, 6, 6, 0.932);
   padding: 10px;
   margin: 15px;
+  opacity: 0.8;
+  border-radius: 25px;
 }
 label {
   color: white;
